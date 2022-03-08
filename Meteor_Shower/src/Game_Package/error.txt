@@ -1,0 +1,7 @@
+Exception in thread "Thread-0" java.lang.NullPointerException: Cannot read field "next" because "x" is null
+	at java.base/java.util.LinkedList.node(LinkedList.java:576)
+	at java.base/java.util.LinkedList.get(LinkedList.java:481)
+	at Game_Package.Handler.render(Handler.java:24)
+	at Game_Package.Game.render(Game.java:172)
+	at Game_Package.Game.run(Game.java:115)
+	at java.base/java.lang.Thread.run(Thread.java:833)
